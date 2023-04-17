@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    border: 1px solid;
+    height: 7vh;
+    background-image: linear-gradient(69deg, rgb(68, 67, 67),rgb(109, 67, 67),rgb(63, 59, 59));
+    align-items: center;
+    justify-content: center;
+}
+
+.gymContainer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.linkContainer {
+    display: flex;
+    flex: 2;
+    gap: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.joinBtn {
+    display: flex;
+    flex: 1;
+}
+
+.linkGym {
+    text-decoration: none;
+    color: rgb(228, 23, 23);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.linkJoin {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 1vh;
+    background-color: red;
+
+}
